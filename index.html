@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="./img/favicon.png" type="image/favicon" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="position-relative vh-100 overflow-hidden">
+      <nav class="navbar navbar-expand-lg navbar-dark container Deep-Cyan position-absolute top-0 start-50 translate-middle-x mt-4 rounded-3 shadow px-3 py-4" style="z-index: 1050" data-aos="fade-down">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Property</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Properties</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://youtu.be/l2m4VOT1Tio?si=xe5S8u_K_sjaJR_Z">Buy</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://youtu.be/l2m4VOT1Tio?si=xe5S8u_K_sjaJR_Z">Services</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3" style="z-index: 1000" data-aos="zoom-in" data-aos-delay="300">
+        <h1 class="display-5 fw-bold mb-4">Easiest way to find your dream home</h1>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="input-group mb-3 gap-3">
+                <input type="text" class="form-control rounded-pill border-0 py-4 px-4 shadow-sm" placeholder="Your ZIP code or City. e.g. New York" aria-label="Search location" />
+                <button class="btn rounded-pill px-5 py-3 fw-bold text-white Deep-Cyan shadow-sm" type="button">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div  class="carousel hero slide carousel-dark" data-bs-interval="2000" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="./img/hero_bg_1.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/hero_bg_2.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="..." />
+          </div>
+          <div class="carousel-item active">
+            <img src="./img/hero_bg_3.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="..." />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="popular">
+        <div class="container">
+          <div class="row row-cols-md-4 justify-content-between px-3 my-5 py-5" data-aos="fade-up">
+            <div class="col-md-4">
+              <h2>Popular Properties</h2>
+            </div>
+            <div class="col-md-3 px-0">
+              <button class="btn rounded-pill px-5 py-3 fw-bold text-white Deep-Cyan shadow-sm" type="button">View all properties</button>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="200">
+            <div class="container swiper">
+              <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                  <div class="card border-0 swiper-slide shadow-sm" style="width: 22rem; border-radius: 15px; overflow: hidden">
+                    <img src="./img/img_1.jpg" class="card-img-top" alt="Modern House" style="height: 250px; object-fit: cover" />
+                    <div class="card-body p-4">
+                      <h3 class="fw-bold mb-1" style="color: #005a5a; border-bottom: 3px solid #005a5a; display: inline-block">$1,291,000</h3>
+                      <p class="text-muted small mt-3 mb-1">5232 California Fake, Ave. 21BC</p>
+                      <h4 class="fw-bold mb-3">California, USA</h4>
+                      <div class="d-flex gap-4 mb-4 text-muted">
+                        <span><i class="bi bi-bed-fill me-2"></i>2 beds</span>
+                        <span><i class="bi bi-water me-2"></i>2 baths</span>
+                      </div>
+                      <a href="https://youtu.be/l2m4VOT1Tio?si=xe5S8u_K_sjaJR_Z" class="btn px-4 py-2 fw-bold text-white rounded-pill" style="background-color: #005a5a"> See details </a>
+                    </div>
+                  </div>
+                  <div class="card border-0 shadow-sm swiper-slide" style="width: 22rem; border-radius: 15px; overflow: hidden">
+                    <img src="./img/img_2.jpg" class="card-img-top" alt="Modern House" style="height: 250px; object-fit: cover" />
+                    <div class="card-body p-4">
+                      <h3 class="fw-bold mb-1" style="color: #005a5a; border-bottom: 3px solid #005a5a; display: inline-block">$1,291,000</h3>
+                      <p class="text-muted small mt-3 mb-1">5232 California Fake, Ave. 21BC</p>
+                      <h4 class="fw-bold mb-3">California, USA</h4>
+                      <div class="d-flex gap-4 mb-4 text-muted">
+                        <span><i class="bi bi-bed-fill me-2"></i>2 beds</span>
+                        <span><i class="bi bi-water me-2"></i>2 baths</span>
+                      </div>
+                      <a href="https://youtu.be/l2m4VOT1Tio?si=xe5S8u_K_sjaJR_Z" class="btn px-4 py-2 fw-bold text-white rounded-pill" style="background-color: #005a5a"> See details </a>
+                    </div>
+                  </div>
+                  <div class="card border-0 swiper-slide shadow-sm" style="width: 22rem; border-radius: 15px; overflow: hidden">
+                    <img src="./img/img_3.jpg" class="card-img-top" alt="Modern House" style="height: 250px; object-fit: cover" />
+                    <div class="card-body p-4">
+                      <h3 class="fw-bold mb-1" style="color: #005a5a; border-bottom: 3px solid #005a5a; display: inline-block">$1,291,000</h3>
+                      <p class="text-muted small mt-3 mb-1">5232 California Fake, Ave. 21BC</p>
+                      <h4 class="fw-bold mb-3">California, USA</h4>
+                      <div class="d-flex gap-4 mb-4 text-muted">
+                        <span><i class="bi bi-bed-fill me-2"></i>2 beds</span>
+                        <span><i class="bi bi-water me-2"></i>2 baths</span>
+                      </div>
+                      <a href="https://youtu.be/l2m4VOT1Tio?si=xe5S8u_K_sjaJR_Z" class="btn px-4 py-2 fw-bold text-white rounded-pill" style="background-color: #005a5a"> See details </a>
+                    </div>
+                  </div>
+                  <div class="card border-0 swiper-slide shadow-sm" style="width: 22rem; border-radius: 15px; overflow: hidden">
+                    <img src="./img/img_4.jpg" class="card-img-top" alt="Modern House" style="height: 250px; object-fit: cover" />
+                    <div class="card-body p-4">
+                      <h3 class="fw-bold mb-1" style="color: #005a5a; border-bottom: 3px solid #005a5a; display: inline-block">$1,291,000</h3>
+                      <p class="text-muted small mt-3 mb-1">5232 California Fake, Ave. 21BC</p>
+                      <h4 class="fw-bold mb-3">California, USA</h4>
+                      <div class="d-flex gap-4 mb-4 text-muted">
+                        <span><i class="bi bi-bed-fill me-2"></i>2 beds</span>
+                        <span><i class="bi bi-water me-2"></i>2 baths</span>
+                      </div>
+                      <a href="https://youtu.be/l2m4VOT1Tio?si=xe5S8u_K_sjaJR_Z" class="btn px-4 py-2 fw-bold text-white rounded-pill" style="background-color: #005a5a"> See details </a>
+                    </div>
+                  </div>
+                  <div class="card border-0 swiper-slide shadow-sm" style="width: 22rem; border-radius: 15px; overflow: hidden">
+                    <img src="./img/img_5.jpg" class="card-img-top" alt="Modern House" style="height: 250px; object-fit: cover" />
+                    <div class="card-body p-4">
+                      <h3 class="fw-bold mb-1" style="color: #005a5a; border-bottom: 3px solid #005a5a; display: inline-block">$1,291,000</h3>
+                      <p class="text-muted small mt-3 mb-1">5232 California Fake, Ave. 21BC</p>
+                      <h4 class="fw-bold mb-3">California, USA</h4>
+                      <div class="d-flex gap-4 mb-4 text-muted">
+                        <span><i class="bi bi-bed-fill me-2"></i>2 beds</span>
+                        <span><i class="bi bi-water me-2"></i>2 baths</span>
+                      </div>
+                      <a href="#" class="btn px-4 py-2 fw-bold text-white rounded-pill" style="background-color: #005a5a"> See details </a>
+                    </div>
+                  </div>
+                  <div class="card border-0 swiper-slide shadow-sm" style="width: 22rem; border-radius: 15px; overflow: hidden">
+                    <img src="./img/img_6.jpg" class="card-img-top" alt="Modern House" style="height: 250px; object-fit: cover" />
+                    <div class="card-body p-4">
+                      <h3 class="fw-bold mb-1" style="color: #005a5a; border-bottom: 3px solid #005a5a; display: inline-block">$1,291,000</h3>
+                      <p class="text-muted small mt-3 mb-1">5232 California Fake, Ave. 21BC</p>
+                      <h4 class="fw-bold mb-3">California, USA</h4>
+                      <div class="d-flex gap-4 mb-4 text-muted">
+                        <span><i class="bi bi-bed-fill me-2"></i>2 beds</span>
+                        <span><i class="bi bi-water me-2"></i>2 baths</span>
+                      </div>
+                      <a href="#" class="btn px-4 py-2 fw-bold text-white rounded-pill" style="background-color: #005a5a"> See details </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="learn-more" class="container-fluid bg-body-secondary py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="container my-5">
+                <div class="card property-card text-center p-4">
+                  <div class="icon-container mb-3">
+                    <i class="fa-regular fa-house fa-3x"></i>
+                  </div>
+                  <h3 class="card-title">Our Properties</h3>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                  <div class="mt-3">
+                    <a href="#" class="learn-more">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="container mt-5">
+                <div class="card property-card text-center p-4">
+                  <div class="icon-container mb-3">
+                    <i class="fa-regular fa-house fa-3x"></i>
+                  </div>
+                  <h3 class="card-title">Our Properties</h3>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                  <div class="mt-3">
+                    <a href="#" class="learn-more">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="container mt-5">
+                <div class="card property-card text-center p-4">
+                  <div class="icon-container mb-3">
+                    <i class="fa-regular fa-house fa-3x"></i>
+                  </div>
+                  <h3 class="card-title">Our Properties</h3>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                  <div class="mt-3">
+                    <a href="#" class="learn-more">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+              <div class="container mt-5">
+                <div class="card property-card text-center p-4">
+                  <div class="icon-container mb-3">
+                    <i class="fa-regular fa-house fa-3x"></i>
+                  </div>
+                  <h3 class="card-title">Our Properties</h3>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                  <div class="mt-3">
+                    <a href="#" class="learn-more">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="costumer" data-aos="fade-in">
+        <div class="container overflow-hidden">
+          <div class="row">
+
+            <div class="text-center my-5 " data-aos="fade-down">
+              <h2 class="fw-bold mb-3" style="color: #002b5c">Our Costumers</h2>
+              <p class="text-muted mx-auto" style="max-width: 700px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="carousel">
+              <div class="group">
+                <div class="card testimonial-card">
+                  <img src="./img/person_1-min.jpg" class="rounded-circle" alt="Cameron" />
+                  <h6 class="fw-bold mt-2">Cameron Webster</h6>
+                  <p class="small text-muted">“Far far away, behind the word mountains...”</p>
+                </div>
+                <div class="card testimonial-card">
+                  <img src="./img/person_2-min.jpg" class="rounded-circle" alt="Dave" />
+                  <h6 class="fw-bold mt-2">Dave Smith</h6>
+                  <p class="small text-muted">“Far far away, behind the word mountains...”</p>
+                </div>
+                <div class="card testimonial-card">
+                  <img src="./img/person_3-min.jpg" class="rounded-circle" alt="James" />
+                  <h6 class="fw-bold mt-2">James Smith</h6>
+                  <p class="small text-muted">“Far far away, behind the word mountains...”</p>
+                </div>
+              </div>
+              <div class="group" aria-hidden="true">
+                <div class="card testimonial-card">
+                  <img src="./img/person_1-min.jpg" class="rounded-circle" alt="Cameron" />
+                  <h6 class="fw-bold mt-2">Cameron Webster</h6>
+                  <p class="small text-muted">“Far far away, behind the word mountains...”</p>
+                </div>
+                <div class="card testimonial-card">
+                  <img src="./img/person_2-min.jpg" class="rounded-circle" alt="Dave" />
+                  <h6 class="fw-bold mt-2">Dave Smith</h6>
+                  <p class="small text-muted">“Far far away, behind the word mountains...”</p>
+                </div>
+                <div class="card testimonial-card">
+                  <img src="./img/person_3-min.jpg" class="rounded-circle" alt="James" />
+                  <h6 class="fw-bold mt-2">James Smith</h6>
+                  <p class="small text-muted">“Far far away, behind the word mountains...”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="find" class="py-5 bg-body-secondary overflow-hidden">
+        <div class="container py-5">
+          <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-3">Let's find home that's perfect for you</h2>
+              <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit.</p>
+            </div>
+          </div>
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="flex-shrink-0 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px">
+                  <i class="fa-solid fa-house text-dark"></i>
+                </div>
+                <div class="ms-4">
+                  <h5 class="fw-bold mb-1">2M Properties</h5>
+                  <p class="text-muted small mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div class="flex-shrink-0 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px">
+                  <i class="fa-solid fa-user text-dark"></i>
+                </div>
+                <div class="ms-4">
+                  <h5 class="fw-bold mb-1">Top Rated Agents</h5>
+                  <p class="text-muted small mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
+                </div>
+              </div>
+              <div class="d-flex mb-4">
+                <div class="flex-shrink-0 bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px">
+                  <i class="fa-solid fa-shield-halved text-dark"></i>
+                </div>
+                <div class="ms-4">
+                  <h5 class="fw-bold mb-1">Legit Properties</h5>
+                  <p class="text-muted small mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 position-relative" data-aos="fade-left">
+              <img src="./img/dots.png" class="position-absolute translate-middle-y" style="bottom: -20px; right: -20px; z-index: 1" alt="dots" />
+              <img src="./img/hero_bg_3.jpg" class="img-fluid rounded position-relative" style="z-index: 2" alt="Modern House" />
+            </div>
+          </div>
+          <div class="row mt-5 pt-4 text-center" data-aos="zoom-in">
+            <div class="col-6 col-md-3">
+              <h2 class="fw-bold mb-0">3,298</h2>
+              <small class="text-muted"># of Buy Properties</small>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2 class="fw-bold mb-0">2,181</h2>
+              <small class="text-muted"># of Sell Properties</small>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2 class="fw-bold mb-0">9,316</h2>
+              <small class="text-muted"># of All Properties</small>
+            </div>
+            <div class="col-6 col-md-3">
+              <h2 class="fw-bold mb-0">7,191</h2>
+              <small class="text-muted"># of Agents</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="be-part" class="py-5 bg-white text-center" data-aos="flip-up">
+        <div class="container py-5">
+          <h2 class="fw-bold mb-4" style="color: #003366">Be a part of our growing real state agents</h2>
+          <a href="#" class="btn btn-cta px-5 py-3 rounded-pill text-white fw-medium"> Apply for Real Estate agent </a>
+        </div>
+      </section>
+      <section class="py-5 bg-body-secondary">
+        <div class="container py-5">
+          <div class="text-center mb-5 pb-5" data-aos="fade-down">
+            <h2 class="fw-bold mb-3" style="color: #002b5c">Our Agents</h2>
+            <p class="text-muted mx-auto" style="max-width: 700px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card border-0 shadow-sm h-100 text-center p-4 pt-0">
+                <div class="position-relative mb-4">
+                  <img src="./img/person_4-min.jpg" class="rounded-circle border border-5 border-white shadow-sm mt-n5" style="width: 120px; height: 120px; margin-top: -60px" alt="James Doe" />
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-bold mb-1">James Doe</h5>
+                  <p class="text-muted small mb-3">Real Estate Agent</p>
+                  <p class="card-text text-muted small mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam.</p>
+                  <div class="d-flex justify-content-center gap-2">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="card border-0 shadow-sm h-100 text-center p-4 pt-0">
+                <div class="position-relative mb-4">
+                  <img src="./img/person_4-min.jpg" class="rounded-circle border border-5 border-white shadow-sm mt-n5" style="width: 120px; height: 120px; margin-top: -60px" alt="James Doe" />
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-bold mb-1">James Doe</h5>
+                  <p class="text-muted small mb-3">Real Estate Agent</p>
+                  <p class="card-text text-muted small mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam.</p>
+                  <div class="d-flex justify-content-center gap-2">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card border-0 shadow-sm h-100 text-center p-4 pt-0">
+                <div class="position-relative mb-4">
+                  <img src="./img/person_4-min.jpg" class="rounded-circle border border-5 border-white shadow-sm mt-n5" style="width: 120px; height: 120px; margin-top: -60px" alt="James Doe" />
+                </div>
+                <div class="card-body">
+                  <h5 class="fw-bold mb-1">James Doe</h5>
+                  <p class="text-muted small mb-3">Real Estate Agent</p>
+                  <p class="card-text text-muted small mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam.</p>
+                  <div class="d-flex justify-content-center gap-2">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-5 bg-light border-top">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p class="text-muted small mb-2">43 Raymouth Rd. Baltemoer, London 3910</p>
+            <p class="mb-1"><a href="tel:+11234567890" class="text-decoration-none text-muted small">+1(123)-456-7890</a></p>
+            <p class="mb-1"><a href="tel:+11234567890" class="text-decoration-none text-muted small">+1(123)-456-7890</a></p>
+            <p><a href="mailto:info@mydomain.com" class="text-decoration-none text-muted small">info@mydomain.com</a></p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h6 class="text-uppercase fw-bold mb-4">Sources</h6>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="#" class="footer-link">About us</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Services</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Vision</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Mission</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Terms</a></li>
+              <li><a href="#" class="footer-link">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h6 class="text-uppercase fw-bold mb-4 opacity-0 d-none d-md-block">Sources 2</h6>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="#" class="footer-link">Partners</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Business</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Blog</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">FAQ</a></li>
+              <li><a href="#" class="footer-link">Creative</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-md-12 text-lg-end">
+            <h6 class="text-uppercase fw-bold mb-4">Links</h6>
+            <ul class="list-unstyled small mb-4">
+              <li class="mb-2"><a href="#" class="footer-link">Our Vision</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">About us</a></li>
+              <li><a href="#" class="footer-link">Contact us</a></li>
+            </ul>
+            <div class="d-flex justify-content-lg-end gap-2">
+              <a href="#" class="footer-social"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="footer-social"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="footer-social"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="footer-social"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="footer-social"><i class="fa-brands fa-pinterest"></i></a>
+              <a href="#" class="footer-social"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 150,
+      });
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
